@@ -1,0 +1,15 @@
+<?php //php 7.2.24
+    class User{
+        public $name;
+        public $bd;
+
+        public function show(){
+            echo $this->name, ' ', $this->bd;
+        }
+    }
+    $me = new User;
+    $me->name = 'Kyz Saikal';
+    $me->bd = 88;
+    $me->show();
+    
+?>

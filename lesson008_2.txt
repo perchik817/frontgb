@@ -1,0 +1,15 @@
+-- create
+CREATE TABLE Classmate (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age INTEGER NOT NULL,
+  address TEXT not null
+);
+
+-- insert
+INSERT INTO Classmate VALUES (0001, 'Clark', '10', 'street');
+INSERT INTO Classmate VALUES (0002, 'Dave','9', 'street');
+INSERT INTO Classmate VALUES (0003, 'Ava', '10', 'street');
+
+-- fetch 
+SELECT * FROM Classmate;
